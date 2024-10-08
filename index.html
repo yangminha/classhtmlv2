@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-
+        <title>HTML연습</title><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <style>
+            .emoji {
+                font-family: "Inter";
+                font-weight: 900;
+                font-size: 150pt;
+                position:absolute;
+                transform:translate(50px, 50px);
+                transition-duration:1s;
+                transition-timing-function: ease;
+                transition-delay: 0s;
+            }
+            .emoji:hover {
+                transform:translate(150px, 50px) skewX(-10deg);
+                font-weight:100;
+            }
+        </style>
     </head>
     <body>
-BBBBB
+        <div class="emoji">H</div>
+        <!--img class="emoji" src="smile.png" onClick="hoho();"-->
     </body>
 </html>
